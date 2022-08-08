@@ -1,0 +1,1 @@
+{"version":3,"file":"Assistant.definition.js","sourceRoot":"","sources":["../../../src/cli/assistant/Assistant.definition.ts"],"names":[],"mappings":";AAAA;;;;;;;;GAQG;AAGH,uEAAuE;AACvE,MAAM,cAAc,GAAuB;IACvC,IAAI,EAAE,YAAY;IAClB,OAAO,EAAE,+BAA+B;IACxC,WAAW,EAAE,oMAAoM;IACjN,IAAI,EAAE,OAAO;IACb,gBAAgB;CACnB,CAAC;AAEF,iBAAS,cAAc,CAAC"}

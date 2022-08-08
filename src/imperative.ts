@@ -9,22 +9,22 @@
  */
 
 import {IImperativeConfig} from "@zowe/imperative";
-import { ProfileConstants } from "./api/ProfileConstants";
+//import { ProfileConstants } from "./api/ProfileConstants";
 
 const config: IImperativeConfig = {
     commandModuleGlobs: ["**/cli/*/*.definition!(.d).*s"],
     pluginHealthCheck: __dirname + "/healthCheck.Handler",
-    pluginSummary: "Zowe CLI sample plug-in",
-    pluginAliases: ["zcsp"],
-    rootCommandDescription: "Welcome to the sample plug-in for Zowe CLI!\n\n The sample plug-in " +
+    pluginSummary: "Zowe CLI command typing assistant",
+    pluginAliases: ["zcta"],
+    rootCommandDescription: "Welcome to the Assistant plug-in for Zowe CLI!\n\n This plug-in " +
         "(& CLI) follows the Zowe CLI command syntax 'zowe [group] [action] [object] [options]'. " +
         "Where, in the case of the plugin, " +
         "the [group] is the package.json name, " +
         "the [actions] are defined in the project under 'src/cli/', " +
         "& the [objects] (definitions & handler) are defined in the project under 'src/cli/'.",
-    productDisplayName: "Zowe CLI Sample Plug-in",
-    name: "zowe-cli-sample",
-    profiles: [
+    productDisplayName: "Zowe CLI Assistant",
+    name: "zowe-cli-assistant",
+    /*profiles: [
         {
             type: "sample",
             schema: {
@@ -63,7 +63,7 @@ const config: IImperativeConfig = {
                 }
             }
         }
-    ]
+    ]*/
 };
 
 export = config;

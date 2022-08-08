@@ -1,20 +1,22 @@
 {
-  "name": "@zowe/sample-plugin-for-zowe-cli",
-  "version": "3.0.0",
-  "description": "A sample plugin for Zowe CLI :)",
-  "homepage": "https://github.com/zowe/zowe-cli-sample-plugin#readme",
+  "name": "@zowe/zowe-cli-assistant",
+  "version": "1.0.0",
+  "description": "A plugin for Zowe CLI providing typing assistance:)",
+  "homepage": "https://github.com/pinpan/zowe-cli-assistant#readme",
   "bugs": {
-    "url": "https://github.com/zowe/zowe-cli-sample-plugin/issues"
+    "url": "https://github.com/pinpan/zowe-cli-assistant/issues"
   },
   "keywords": [
     "zowe",
     "cli",
-    "sample",
+    "assistant",
+    "auto-completion",
+    "context",
     "plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zowe/zowe-cli-sample-plugin.git"
+    "url": "https://github.com/pinpan/zowe-cli-assistant.git"
   },
   "main": "lib/index.js",
   "files": [
@@ -128,7 +130,7 @@
     "output": "__tests__/__results__/junit.xml"
   },
   "jest-html-reporter": {
-    "pageTitle": "Zowe CLI Sample Plugin Test Results",
+    "pageTitle": "Zowe CLI Assistant Plugin Test Results",
     "outputPath": "__tests__/__results__/results.html",
     "includeFailureMsg": true
   },
